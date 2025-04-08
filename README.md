@@ -44,7 +44,6 @@ Ville
 Code postal
 Une fois le formulaire soumis, les nouvelles informations sont mises à jour dans la base de
 données MySQL via une requête UPDATE.
-[18:26]
 supprime.php – Suppression des données utilisateur
 La page supprime.php permet à l'utilisateur de supprimer définitivement ses informations
 du site. Cela peut être nécessaire si un utilisateur ne souhaite plus faire partie de la base
@@ -57,6 +56,7 @@ pour supprimer toutes les informations associées à ce compte.
 Un message de confirmation est affiché, ou bien l'utilisateur est redirigé vers une autre
 page pour confirmer la suppression ou revenir à la page d'accueil. DELETE FROM clients
 WHERE id = ?x;
+---
 5.Tableau des projets – tableau.php
 La page tableau.php permet à l'artiste de mettre en avant ses projets réalisés, tout en
 offrant une vue d'ensemble des œuvres et accompagnées de leurs tarifs associés. C'est un
